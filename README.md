@@ -79,6 +79,21 @@ Select a forgetting strategy and configure the training parameters:
 - Track training progress and metrics using [WandB](https://wandb.ai/).
 - Models and forgetting layers are saved periodically.
 
+## Evaluation
+
+The evaluation process is designed to assess the performance of the optimized language models on specific tasks after applying the forgetting strategies.
+
+### Evaluation Features
+- Measure model accuracy and efficiency post-forgetting.
+- Compare performance metrics (e.g., loss, perplexity) with baseline models.
+- Assess computational savings in terms of runtime and memory.
+
+### Implementation
+The `eval` notbook includes functionalities for:
+- Loading the trained model and dataset.
+- Computing evaluation metrics on test datasets.
+- Comparing results with baseline models to quantify improvements.
+
 ## Future Work
 
 - Extend the forgetting strategies to incorporate more advanced architectures.
