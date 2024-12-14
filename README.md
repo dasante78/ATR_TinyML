@@ -4,6 +4,8 @@
 
 This project explores methods to optimize sequence-based language models by selectively "forgetting" parts of sequences. The goal is to reduce the sequence length and computation cost while preserving key information, achieving computational savings of \(O(n^2 - b^2)\), where \(b < n\).
 
+Demo: https://youtu.be/R5pYuRFvbH0
+
 ## Features
 
 - **Forgetting Strategies**: 
